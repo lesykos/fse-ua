@@ -1,0 +1,108 @@
+{{ partial "header.html" . }}
+
+<!--Page Title-->
+<section class="page-title" style="background-image:url(/images/background/7.jpg);">
+	<div class="auto-container">
+    	<div class="content-box">
+        	<h1>{{ index .Params "title" | default "" }}</h1>
+            <ul class="bread-crumb">
+            	<li><a href="/">Головна</a></li>
+              <li>{{ index .Params "title" | default "" }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--Contact Form Section-->
+<section class="contact-form-section">
+	<div class="auto-container">
+    	<div class="row clearfix">
+
+        	<div class="column col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+            	<h2>Приєднуйся до родини скаутів Європи</h2>
+							<div class="text">Стань частиною родини Федерації скаутів Європи. Заповнюй заявку і ми обов'язково з тобою зв'яжемося.</div>
+                <!-- Contact Form -->
+                <div class="contact-form">
+
+                    <!--Contact Form-->
+                    <form name="join" action="/" id="join-form" netlify>
+                        <div class="row clearfix">
+                            <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Ім'я та Прізвище<span class="required-tag">*</span></div>
+                                <input type="text" name="name" required>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Рік народження <span class="required-tag">*</span></div>
+                                <input type="text" name="age" required>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Телефон <span class="required-tag">*</span></div>
+                                <input type="text" name="phone" required>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Місто / Село <span class="required-tag">*</span></div>
+																<input type="text" name="location" required>
+                            </div>
+
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Тип учасника <span class="required-tag">*</span></div>
+
+																<div class="radio">
+																  <label>
+																    <input type="radio" name="role" value="Вовченя 8-12 років">
+																    вовченя 8-12 років
+																  </label>
+																</div>
+
+																<div class="radio">
+																  <label>
+																    <input type="radio" name="role" value="Скаут / скаутка 12-17 років">
+																    скаут / скаутка 12-17 років
+																  </label>
+																</div>
+
+																<div class="radio">
+																  <label>
+																    <input type="radio" name="role" value="Мандрівник / мандрівниця від 17років">
+																    Мандрівник / мандрівниця від 17років
+																  </label>
+																</div>
+
+																<div class="radio">
+																  <label>
+																    <input type="radio" name="role" value="Провідник (виховник)">
+																    Провідник (виховник)
+																  </label>
+																</div>
+
+																<div class="radio">
+																  <label>
+																    <input type="radio" name="role" value="Волонтер">
+																    Волонтер
+																  </label>
+																</div>
+                            </div>
+
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                <button class="theme-btn btn-style-two" type="submit" name="submit-form">НАДІСЛАТИ</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+                <!--End Comment Form -->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+{{ partial "footer.html" . }}

@@ -410,20 +410,41 @@
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {
-				username: {
+				name: {
 					required: true
 				},
 				email: {
 					required: true,
 					email: true
 				},
-				phone: {
-					required: true,
-				},
 				subject: {
 					required: true
 				},
 				message: {
+					required: true
+				}
+			}
+		});
+	}
+
+	//Join Us Form Validation
+	if($('#join-form').length){
+		$('#join-form').validate({
+			rules: {
+				name: {
+					required: true
+				},
+				age: {
+					required: true,
+					number: true
+				},
+				phone: {
+					required: true
+				},
+				location: {
+					required: true
+				},
+				role: {
 					required: true
 				}
 			}
