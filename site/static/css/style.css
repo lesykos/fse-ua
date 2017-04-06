@@ -2958,9 +2958,9 @@ img{
 
 .services-block-two .inner{
 	position:relative;
-	padding:26px 0px;
+	/*padding:26px 0px;*/
 	text-align:center;
-	outline:1px dotted #cccccc;
+	/*outline:1px dotted #cccccc;*/
 	outline-offset:-12px;
 	background-color:#ffffff;
 	transition:all 500ms ease;
