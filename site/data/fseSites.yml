@@ -1,0 +1,72 @@
+deutschland:
+  name: "Deutschland"
+  iso: "de"
+  url: "https://www.kpe.de/"
+austria:
+  name: "Austria"
+  iso: "at"
+  url: "http://www.kpe-austria.at/"
+belarus:
+  name: "Belarus"
+  iso: "by"
+  url: ""
+belgium:
+  name: "Belgium"
+  iso: "be"
+  url: "http://www.scouts-europe.be/"
+canada:
+  name: "Canada"
+  iso: "ca"
+  url: "http://www.fneexplorers.com/"
+spain:
+  name: "Spain"
+  iso: "es"
+  url: "http://www.scouts-de-europa.org/"
+france:
+  name: "France"
+  iso: "fr"
+  url: "http://www.scouts-europe.org/"
+hungary:
+  name: "Hungary"
+  iso: "hu"
+  url: "http://www.fse.hu/"
+italy:
+  name: "Italy"
+  iso: "it"
+  url: "http://www.fse.it/"
+lithuania:
+  name: "Lithuania"
+  iso: "lt"
+  url: "http://www.europosskautai.lt/"
+poland:
+  name: "Poland"
+  iso: "pl"
+  url: "http://www.skauci-europy.pl/"
+portugal:
+  name: "Portugal"
+  iso: "pt"
+  url: "http://www.escuteirosdaeuropa.org/"
+slovakia:
+  name: "Slovakia"
+  iso: "sk"
+  url: "http://www.fse.sk/"
+czech:
+  name: "Czech Republic"
+  iso: "cz"
+  url: "http://www.skauti-evropy.cz/"
+romania:
+  name: "Romania"
+  iso: "ro"
+  url: "http://www.fse.ro/"
+russia:
+  name: "Russia"
+  iso: "ru"
+  url: "http://www.orur-spb.ru/"
+switzerland:
+  name: "Switzerland"
+  iso: "ch"
+  url: "http://www.scouts-europe.ch/"
+ukraine:
+  name: "Ukraine"
+  iso: "ua"
+  url: "https://fse.com.ua/"

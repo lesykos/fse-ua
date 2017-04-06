@@ -527,7 +527,7 @@ img{
 	float:left;
 	left:0px;
 	z-index:10;
-	padding:33px 0px;
+	padding:30px 0px;
 }
 
 .fixed-header .main-box .logo-box{
@@ -1368,7 +1368,7 @@ img{
 
 .main-footer .widgets-section{
 	position:relative;
-	padding:70px 0px 40px;
+	padding:40px 0px 40px;
 }
 
 .main-footer .footer-column{
@@ -1805,12 +1805,13 @@ img{
 	color:#ffffff;
 	font-size:46px;
 	font-weight:700;
+	text-transform: uppercase;
 }
 
 .call-to-action .text{
 	position:relative;
 	color:#ffffff;
-	font-size:18px;
+	font-size:24px;
 	margin-bottom:30px;
 	font-family: 'Marck Script', cursive;
 /*font-family: 'Courgette', cursive;*/

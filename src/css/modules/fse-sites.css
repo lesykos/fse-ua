@@ -1,0 +1,20 @@
+.fse-sites {
+  max-width: 960px;
+  margin: 0 auto 20px;
+}
+.fse-sites__list {
+  font-size: 0;
+}
+.fse-sites__item {
+  display: inline-block;
+  width: 16.66666666666667%;
+  padding: 0 0 4px;
+}
+.fse-sites__item-link {
+  color: #e0e0e0;
+}
+.fse-sites__item-name {
+  margin-left: 5px;
+  font-size: 14px;
+  vertical-align: top;
+}

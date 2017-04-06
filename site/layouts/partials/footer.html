@@ -1,3 +1,49 @@
+<!--Main Footer-->
+<footer class="main-footer">
+  <div class="auto-container">
+
+        <!--Widgets Section-->
+        <div class="widgets-section">
+          <div class="row clearfix">
+
+            <div class="fse-sites">
+              <ul class="fse-sites__list">
+                {{ range $.Site.Data.fseSites }}
+                  <li class="fse-sites__item">
+                    <a class="fse-sites__item-link" href="{{ .url }}" target="_blank">
+                      <img class="fse-sites__item-img" src="images/flags/{{ .iso }}.png" alt="{{ .name }}">
+                      <span class="fse-sites__item-name">{{ .name }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <center>
+              <a href="http://uigse-fse.org/" target="_blank">
+                <img src="images/resource/logo_uigse-fond.png">
+              </a>
+            </center>
+
+          </div>
+        </div>
+    </div>
+
+    <!--Footer Bottom-->
+     <div class="footer-bottom">
+      <div class="auto-container">
+          <div class="copyright-text">Католицьке скаутство Європи в Україні</div>
+        </div>
+    </div>
+
+</footer>
+
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
 <script src="/js/jquery.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
@@ -9,5 +55,6 @@
 <script src="/js/appear.js"></script>
 <script src="/js/jquery.mixitup.js"></script>
 <script src="/app.js"></script>
+
 </body>
 </html>
