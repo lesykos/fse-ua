@@ -1,0 +1,26 @@
+.fse-sites {
+  max-width: 960px;
+  margin: 0 auto 20px;
+
+  &__list {
+    font-size: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    width: 16.66666666666667%;
+    padding: 0 0 4px;
+
+    &-link {
+      color: #e0e0e0;
+    }
+
+    &-img {}
+
+    &-name {
+      margin-left: 5px;
+      font-size: 14px;
+      vertical-align: top;
+    }
+  }
+}

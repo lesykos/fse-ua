@@ -4,6 +4,7 @@ import gutil from "gulp-util";
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";
+import sass from "gulp-sass";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -19,7 +20,8 @@ gulp.task("build", ["css", "js", "hugo"]);
 gulp.task("build-preview", ["css", "js", "hugo-preview"]);
 
 gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
+  gulp.src("./src/css/*.scss")
+    .pipe(sass().on('error', sass.logError))
     .pipe(postcss([cssnext(), cssImport({from: "./src/css/main.css"})]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
