@@ -1,0 +1,78 @@
+{{ partial "header.html" . }}
+
+<!--Page Title-->
+<section class="page-title" style="background-image:url(/images/background/7.jpg);">
+	<div class="auto-container">
+    	<div class="content-box">
+        	<h1>{{ index .Params "title" | default "" }}</h1>
+            <ul class="bread-crumb">
+            	<li><a href="/">Головна</a></li>
+              <li>{{ index .Params "title" | default "" }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--Contact Form Section-->
+<section class="contact-form-section">
+	<div class="auto-container">
+    	<div class="row clearfix">
+
+        	<div class="column col-md-7 col-sm-12 col-xs-12">
+            	<h2>Надіслати повідомлення</h2>
+                <!-- Contact Form -->
+                <div class="contact-form">
+
+                    <!--Contact Form-->
+                    <form name="contact" action="/" id="contact-form" netlify>
+                        <div class="row clearfix">
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                <div class="field-label">Ім'я <span class="required-tag">*</span></div>
+                                <input type="text" name="username" placeholder="" required>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                <div class="field-label">Електронна адреса <span class="required-tag">*</span></div>
+                                <input type="email" name="email" placeholder="" required>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Тема <span class="required-tag">*</span></div>
+                                <input type="text" name="subject" placeholder="">
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                <div class="field-label">Повідомлення <span class="required-tag">*</span></div>
+                                <textarea name="message" placeholder=""></textarea>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+                                <button class="theme-btn btn-style-two" type="submit" name="submit-form">НАДІСЛАТИ</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+                <!--End Comment Form -->
+            </div>
+
+            <div class="column col-md-5 col-sm-12 col-xs-12">
+            	<h2>Зв’язатися з нами</h2>
+                <div class="text"></div>
+
+                <!--Contact Info Detail-->
+                <ul class="contact-info-detail">
+                    <li><div class="icon"><span class="flaticon-pin"></span></div><h4>Адреса</h4>м. Львів, вул. Симона Петлюри, 32, 79023</li>
+                    <li><div class="icon"><span class="flaticon-interface"></span></div><h4>Email</h4>fse.ukraine@gmail.com</li>
+                    <li><div class="icon"><span class="flaticon-technology-1"></span></div><h4>Телефон</h4>+38 097 306 5030</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+{{ partial "footer.html" . }}

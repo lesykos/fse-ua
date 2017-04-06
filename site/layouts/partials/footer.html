@@ -11,7 +11,7 @@
                 {{ range $.Site.Data.fseSites }}
                   <li class="fse-sites__item">
                     <a class="fse-sites__item-link" href="{{ .url }}" target="_blank">
-                      <img class="fse-sites__item-img" src="images/flags/{{ .iso }}.png" alt="{{ .name }}">
+                      <img class="fse-sites__item-img" src="/images/flags/{{ .iso }}.png" alt="{{ .name }}">
                       <span class="fse-sites__item-name">{{ .name }}</span>
                     </a>
                   </li>
@@ -21,7 +21,7 @@
 
             <center>
               <a href="http://uigse-fse.org/" target="_blank">
-                <img src="images/resource/logo_uigse-fond.png">
+                <img src="/images/resource/logo_uigse-fond.png">
               </a>
             </center>
 
@@ -53,6 +53,7 @@
 <script src="/js/owl.js"></script>
 <script src="/js/wow.js"></script>
 <script src="/js/appear.js"></script>
+<script src="/js/validate.js"></script>
 <script src="/js/jquery.mixitup.js"></script>
 <script src="/app.js"></script>
 

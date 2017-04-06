@@ -3305,6 +3305,7 @@ img{
 	padding-right:18px;
 	margin-right:6px;
 	display:inline-block;
+	font-size:17px;
 	font-family: 'Marck Script', cursive;
 /*font-family: 'Courgette', cursive;*/
 }
@@ -3330,7 +3331,6 @@ img{
 	position:relative;
 	margin:0px 3px;
 	color:#99cc00;
-	font-size:14px;
 	font-style:italic;
 	display:inline-block;
 	font-family: 'Marck Script', cursive;
