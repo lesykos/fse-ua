@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+
+<section class="page-title" style="background-image:url(/images/background/7.jpg);">
+	<div class="auto-container">
+    	<div class="content-box">
+        	<h1>{{ index .Params "title" | default "" }}</h1>
+            <ul class="bread-crumb">
+            	<li><a href="/">Головна</a></li>
+              <li>{{ index .Params "title" | default "" }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="blog-detail">
+  <div class="auto-container">
+    <div class="row clearfix">
+      <div class="content-side col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+        <section class="blog-section">
+          <div class="news-style-one news-details">
+            <div class="inner-box">
+              <div class="lower-content">
+                <div class="text">
+                  {{ .Content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{{ partial "footer.html" . }}

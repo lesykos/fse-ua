@@ -4007,9 +4007,16 @@ img{
 
 .news-details .lower-content .text p{
 	position:relative;
-	color:#777777;
-	font-size:14px;
+	color:#212121;
+	font-size:16px;
 	margin-bottom:25px;
+}
+
+.news-details .lower-content .text ul{
+	margin: 0 0 20px 20px;
+	color: #212121;
+	font-size:16px;
+	line-height: 1.6;
 }
 
 .news-details .lower-content .text blockquote{
