@@ -1,5 +1,5 @@
 .fse-sites {
-  max-width: 960px;
+  // max-width: 960px;
   margin: 0 auto 20px;
 
   &__list {
@@ -7,8 +7,8 @@
   }
 
   &__item {
-    display: inline-block;
-    width: 16.66666666666667%;
+    // display: inline-block;
+    // width: 16.66666666666667%;
     padding: 0 0 4px;
 
     &-link {
@@ -20,7 +20,7 @@
     &-name {
       margin-left: 5px;
       font-size: 14px;
-      vertical-align: top;
+      vertical-align: middle;
     }
   }
 }

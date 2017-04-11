@@ -4,28 +4,24 @@
 
         <!--Widgets Section-->
         <div class="widgets-section">
-          <div class="row clearfix">
 
-            <div class="fse-sites">
-              <ul class="fse-sites__list">
-                {{ range $.Site.Data.fseSites }}
-                  <li class="fse-sites__item">
-                    <a class="fse-sites__item-link" href="{{ .url }}" target="_blank">
-                      <img class="fse-sites__item-img" src="/images/flags/{{ .iso }}.png" alt="{{ .name }}">
-                      <span class="fse-sites__item-name">{{ .name }}</span>
-                    </a>
-                  </li>
-                {{ end }}
-              </ul>
-            </div>
-
-            <center>
-              <a href="http://uigse-fse.org/" target="_blank">
-                <img src="/images/resource/logo_uigse-fond.png">
-              </a>
-            </center>
-
+          <div class="row clearfix fse-sites">
+            {{ range $.Site.Data.fseSites }}
+              <div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-3 col-md-2 fse-sites__item">
+                <a class="fse-sites__item-link" href="{{ .url }}" target="_blank">
+                  <img class="fse-sites__item-img" src="/images/flags/{{ .iso }}.png" alt="{{ .name }}">
+                  <span class="fse-sites__item-name">{{ .name }}</span>
+                </a>
+              </div>
+            {{ end }}
           </div>
+
+          <center>
+            <a href="http://uigse-fse.org/" target="_blank">
+              <img src="/images/resource/logo_uigse-fond.png">
+            </a>
+          </center>
+
         </div>
     </div>
 
