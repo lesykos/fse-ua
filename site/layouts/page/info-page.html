@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
 
-<section class="page-title" style="background-image:url(/images/background/7.jpg);">
+{{ $image := index .Params "background-image" | default "7.jpg" }}
+
+<section class="page-title" style="background-image:url(/images/background/{{ $image }});">
 	<div class="auto-container">
     	<div class="content-box">
         	<h1>{{ index .Params "title" | default "" }}</h1>

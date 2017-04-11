@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Провід"
+background-image: "provid.jpg"
 ---
 
 Керівник організації: Іванов Володимир;
