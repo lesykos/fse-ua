@@ -3249,6 +3249,16 @@ img{
 	color:#99cc00;
 }
 
+
+.section-cover {
+	position:relative;
+	height: 260px;
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
 /***
 
 ====================================================================
@@ -4633,7 +4643,7 @@ img{
 
 .contact-form-section{
 	position:relative;
-	padding:140px 0px 100px;
+	padding: 20px 0px 100px;
 }
 
 .contact-form-section .column{

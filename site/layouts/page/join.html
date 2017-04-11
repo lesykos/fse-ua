@@ -2,17 +2,10 @@
 
 {{ $image := index .Params "background-image" | default "7.jpg" }}
 
-<!--Page Title-->
-<section class="page-title" style="background-image:url(/images/background/{{ $image }});">
-	<div class="auto-container">
-    	<div class="content-box">
-        	<h1>{{ index .Params "title" | default "" }}</h1>
-            <ul class="bread-crumb">
-            	<li><a href="/">Головна</a></li>
-              <li>{{ index .Params "title" | default "" }}</li>
-            </ul>
-        </div>
-    </div>
+<section class="section-cover" style="background-image:url(/images/background/{{ $image }});"></section>
+
+<section class="section-title auto-container">
+	<h1 class="section-title__h">{{ index .Params "title" | default "" }}</h1>
 </section>
 
 <!--Contact Form Section-->

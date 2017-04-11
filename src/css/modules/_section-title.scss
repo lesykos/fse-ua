@@ -1,0 +1,27 @@
+.section-title{
+  position: relative;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0px 15px;
+  text-align: center;
+
+  &__h {
+    position: relative;
+    color: #444444;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+
+    &:after {
+      position: absolute;
+      content: '';
+      left: 50%;
+      bottom: 0px;
+      width: 40px;
+      height: 2px;
+      margin-left: -20px;
+      background-color: #99cc00;
+    }
+  }
+}

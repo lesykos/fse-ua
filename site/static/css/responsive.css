@@ -156,7 +156,8 @@
 		padding:0px;
 	}
 
-	.sec-title h2{
+	.sec-title h2,
+	.section-title__h {
 		font-size:24px;
 	}
 
