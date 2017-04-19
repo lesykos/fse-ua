@@ -33,59 +33,18 @@
             <!--Services Column-->
             <div class="services-column col-md-7 col-sm-12 col-xs-12">
             	<div class="row clearfix">
-                	<!--Services Block Two-->
+
+								{{ range $.Site.Data.indexGallery }}
                 	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/1.jpg" alt="">
-                            </div>
+                    	<div class="inner wow fadeIn animated" data-wow-delay="{{ .delay }}" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: {{ .delay }}; animation-name: fadeIn;">
+                        	<figure class="icon-box">
+															<a href="/images/eurojam/{{ .full_src }}" class="lightbox-image" title="{{ default "" .title }}" data-fancybox-group="index-about-gallery">
+																<img src="/images/eurojam/{{ .preview_src }}" alt="">
+															</a>
+                            </figure>
                         </div>
                     </div>
-
-                    <!--Services Block Two-->
-                	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/2.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Services Block Two-->
-                	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Services Block Two-->
-                	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/4.jpg" alt="">
-                            </div>
-                        </div>
-                  </div>
-
-									<!--Services Block Two-->
-                	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/5.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Services Block Two-->
-                	<div class="services-block-two col-md-4 col-sm-6 col-xs-6">
-                    	<div class="inner wow fadeIn animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: fadeIn;">
-                        	<div class="icon-box">
-                            	<img src="images/eurojam/6.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
+									{{ end }}
 
                 </div>
             </div>

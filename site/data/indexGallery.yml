@@ -1,0 +1,35 @@
+1:
+  preview_src: 1.jpg
+  full_src: 1-full.jpg
+  delay: 0ms
+  title: ""
+
+2:
+  preview_src: 2.jpg
+  full_src: 2-full.jpg
+  delay: 200ms
+  title: ""
+
+3:
+  preview_src: 3.jpg
+  full_src: 3-full.jpg
+  delay: 400ms
+  title: ""
+
+4:
+  preview_src: 4.jpg
+  full_src: 4-full.jpg
+  delay: 0ms
+  title: ""
+
+5:
+  preview_src: 5.jpg
+  full_src: 5-full.jpg
+  delay: 200ms
+  title: ""
+
+6:
+  preview_src: 6.jpg
+  full_src: 6-full.jpg
+  delay: 400ms
+  title: ""
