@@ -1,3 +1,4 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "uk"
-title = "Католицьке Скаутство Європи"
+title = "Федерація скаутів Європи в Україні"
+copyright = "&copy; fse.com.ua - Федерація скаутів Європи в Україні"
