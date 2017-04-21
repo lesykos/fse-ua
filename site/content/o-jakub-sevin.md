@@ -2,7 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "О. Якуб Севін"
-background-image: ""
+background-image: "o-jakub.jpg"
 ---
 
 Головним основоположником нашої спільноти справедливо вважати блж.о. Якуба Севіна.
