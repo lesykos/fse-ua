@@ -4,7 +4,7 @@
 {{ $cloudinary_870 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_870,h_490/" }}
 {{ $cloudinary_80x80 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_80,h_80/" }}
 {{ $cloudinary_300x170 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_300,h_170/" }}
-{{ $main_image := delimit (slice $cloudinary_870 .Params.featured_image) "" }}
+{{ $main_image := delimit (slice $cloudinary_870 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
 
 <div class="sidebar-page-container blog-detail">
     <div class="auto-container">
@@ -17,11 +17,9 @@
                     <!--News Block-->
                     <div class="news-style-one news-details">
                         <div class="inner-box">
-                            {{ if .Params.featured_image }}
                             <div class="image-box">
                                 <img src="{{ $main_image }}" alt="{{ .Title }}">
                             </div>
-                            {{ end }}
 
                             <!--Post Info Box-->
                             <div class="post-info-box clearfix">
@@ -98,14 +96,12 @@
 
                         {{ range first 7 (where .Site.Pages "Section" "news") }}
                           <article class="post">
-                            {{ if .Params.featured_image }}
-                              {{ $image := delimit (slice $cloudinary_80x80 .Params.featured_image) "" }}
-                            	<figure class="post-thumb">
-                                <a href="{{ .Permalink }}">
-                                  <img src="{{ $image }}" alt="{{ .Title }}">
-                                </a>
-                              </figure>
-                            {{ end }}
+                            {{ $image := delimit (slice $cloudinary_80x80 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
+                          	<figure class="post-thumb">
+                              <a href="{{ .Permalink }}">
+                                <img src="{{ $image }}" alt="{{ .Title }}">
+                              </a>
+                            </figure>
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <div class="post-info">{{ .Date.Format "2006-01-02" }}</div>
                           </article>

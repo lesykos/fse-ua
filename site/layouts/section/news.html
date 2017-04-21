@@ -8,13 +8,13 @@
 
 <section class="news-section blog-grid">
   <div class="auto-container">
-    <div class="row clearfix">
+    <ul class="row clearfix">
       {{ $paginator := .Paginator }}
 
 			{{ range $index, $page := .Paginator.Pages }}
 			  {{ .Render "li" }}
 			{{ end }}
-    </div>
+    </ul>
 
     {{ partial "pagination.html" (dict "paginator" $paginator "site" .Site ) }}
 
