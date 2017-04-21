@@ -94,16 +94,18 @@
 
                 	<!-- Popular Posts -->
                     <div class="sidebar-widget popular-posts">
-                        <div class="sidebar-title"><h3>Останні публікації</h3></div>
+                        <div class="sidebar-title"><h3>Останні новини</h3></div>
 
-                        {{ range first 7 (where .Site.Pages "Section" "post") }}
-                          {{ $image := delimit (slice $cloudinary_80x80 .Params.featured_image) "" }}
+                        {{ range first 7 (where .Site.Pages "Section" "news") }}
                           <article class="post">
-                          	<figure class="post-thumb">
-                              <a href="{{ .Permalink }}">
-                                <img src="{{ $image }}" alt="{{ .Title }}">
-                              </a>
-                            </figure>
+                            {{ if .Params.featured_image }}
+                              {{ $image := delimit (slice $cloudinary_80x80 .Params.featured_image) "" }}
+                            	<figure class="post-thumb">
+                                <a href="{{ .Permalink }}">
+                                  <img src="{{ $image }}" alt="{{ .Title }}">
+                                </a>
+                              </figure>
+                            {{ end }}
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <div class="post-info">{{ .Date.Format "2006-01-02" }}</div>
                           </article>
