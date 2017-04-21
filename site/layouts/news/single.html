@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
-{{ $cloudinary_url := "http://res.cloudinary.com/dmpdf2tfh/image/upload/" }}
-{{ $cloudinary_870 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_870,h_490/" }}
-{{ $cloudinary_80x80 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_80,h_80/" }}
-{{ $cloudinary_300x170 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_300,h_170/" }}
+{{ $cloudinary_url := "https://res.cloudinary.com/dmpdf2tfh/image/upload/" }}
+{{ $cloudinary_870 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_870,h_490/" }}
+{{ $cloudinary_80x80 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_80,h_80/" }}
+{{ $cloudinary_300x170 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_300,h_170/" }}
 {{ $main_image := delimit (slice $cloudinary_870 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
 
 <div class="sidebar-page-container blog-detail">
