@@ -2355,11 +2355,11 @@ img{
 
 .news-section{
 	position:relative;
-	padding:150px 0px 100px;
+	padding:0 0px 100px;
 }
 
 .news-section.blog-grid{
-	padding-bottom:150px;
+	padding-bottom:100px;
 }
 
 .news-style-one{
@@ -2399,7 +2399,7 @@ img{
 .news-style-one .inner-box .lower-content .upper-box .title{
 	position:relative;
 	color:#777777;
-	font-size:14px;
+	font-size:18px;
 	font-family: 'Marck Script', cursive;
 /*font-family: 'Courgette', cursive;*/
 }

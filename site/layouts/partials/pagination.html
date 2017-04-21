@@ -1,0 +1,28 @@
+<nav >
+	<div class="inner">
+
+		<div class="clear"></div>
+	</div>
+</nav>
+
+<nav class="styled-pagination text-center" id="pagination" role="pagination">
+	<ul>
+		{{if .paginator.HasPrev}}
+			{{ $prevUrl := delimit (slice .site.BaseURL .paginator.Prev.URL) "" }}
+		  <li>
+				<a class="pagination-item pagination-next" href="{{ $prevUrl }}">
+					<i class="icon-arrow-left"></i> <span>Нові</span>
+				</a>
+			</li>
+		{{end}}
+			<li><span class="pagination-info">Сторінка {{ .paginator.PageNumber }} з {{.paginator.TotalPages}}</span></li>
+		{{if .paginator.HasNext}}
+			{{ $nextUrl := delimit (slice .site.BaseURL .paginator.Next.URL) "" }}
+		  <li>
+				<a class="pagination-item pagination-prev" href="{{ $nextUrl }}">
+					<span>Старі</span> <i class="icon-arrow-right"></i>
+				</a>
+			</li>
+		{{end}}
+	</ul>
+</nav>

@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<section class="section-cover" style="background-image:url(/images/background/news.jpg);"></section>
+
+<section class="section-title auto-container">
+	<h1 class="section-title__h">{{ index .Params "title" | default "Новини" }}</h1>
+</section>
+
+<section class="news-section blog-grid">
+  <div class="auto-container">
+    <div class="row clearfix">
+      {{ $paginator := .Paginator }}
+
+			{{ range $index, $page := .Paginator.Pages }}
+			  {{ .Render "li" }}
+			{{ end }}
+    </div>
+
+    {{ partial "pagination.html" (dict "paginator" $paginator "site" .Site ) }}
+
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

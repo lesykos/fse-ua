@@ -1,0 +1,131 @@
+{{ partial "header.html" . }}
+
+{{ $cloudinary_url := "http://res.cloudinary.com/dmpdf2tfh/image/upload/" }}
+{{ $cloudinary_870 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_870,h_490/" }}
+{{ $cloudinary_80x80 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_80,h_80/" }}
+{{ $cloudinary_300x170 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_300,h_170/" }}
+{{ $main_image := delimit (slice $cloudinary_870 .Params.featured_image) "" }}
+
+<div class="sidebar-page-container blog-detail">
+    <div class="auto-container">
+        <div class="row clearfix">
+
+            <!--Content Side-->
+            <div class="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                <section class="blog-section">
+
+                    <!--News Block-->
+                    <div class="news-style-one news-details">
+                        <div class="inner-box">
+                            {{ if .Params.featured_image }}
+                            <div class="image-box">
+                                <img src="{{ $main_image }}" alt="{{ .Title }}">
+                            </div>
+                            {{ end }}
+
+                            <!--Post Info Box-->
+                            <div class="post-info-box clearfix">
+                                <div class="pull-left">
+                                    <div class="date"><span class="icon flaticon-business"></span> {{ .Date.Format "2006-01-02" }}</div>
+                                </div>
+                            </div>
+
+                            <div class="lower-content">
+                                <h3>{{ .Title }}</h3>
+                                <div class="text">
+                                  {{ .Content }}
+                                </div>
+
+                                {{ if .Params.gallery_images }}
+                                  <div class="post-gallery">
+                                    <div class="row clearfix">
+                                      {{ range $index, $image := .Params.gallery_images }}
+                                        <div class="services-block col-md-4 col-sm-6 col-xs-6">
+                                          <figure>
+                                            {{ $full_url := delimit (slice $cloudinary_url $image) "" }}
+                                            {{ $preview_url := delimit (slice $cloudinary_300x170 $image) "" }}
+                														<a href="{{ $full_url }}" class="lightbox-image" title="" data-fancybox-group="post-gallery">
+                															<img src="{{ $preview_url }}" alt="">
+                														</a>
+                                          </figure>
+                                        </div>
+                                      {{ end }}
+                                    </div>
+                                  </div>
+                                {{ end }}
+
+                                <div class="post-share-options clearfix">
+                                    <div class="pull-left tags">
+                                      <span>Категорія: </span>
+                                      {{ range .Params.categories }}
+                                        <span>{{ .title }}</span>
+                                          <!-- <a href="/categories/{{ .slug | urlize }}">{{ .title }}</a> -->
+                                      {{ end }}
+                                    </div>
+                                    <div class="pull-right social-icon-three clearfix">
+                                    	Поділитися:
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="facebook"><span class="fa fa-facebook-f"></span></a>
+                                        <a href="https://twitter.com/share?text={{ .Title }}&url={{ .Permalink }}" class="twitter"><span class="fa fa-twitter"></span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!--Sidebar-->
+            <div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <aside class="sidebar blog-sidebar">
+
+                    <!-- Search Form -->
+                    <!-- <div class="sidebar-widget search-box">
+                        <form method="post" action="blog.html">
+                            <div class="form-group">
+                                <input type="search" name="search-field" value="" placeholder="Enter Keywords...">
+                                <button type="submit"><span class="icon fa fa-search"></span></button>
+                            </div>
+                        </form>
+                    </div> -->
+				            <!-- End Search Form -->
+
+                	<!-- Popular Posts -->
+                    <div class="sidebar-widget popular-posts">
+                        <div class="sidebar-title"><h3>Останні публікації</h3></div>
+
+                        {{ range first 7 (where .Site.Pages "Section" "post") }}
+                          {{ $image := delimit (slice $cloudinary_80x80 .Params.featured_image) "" }}
+                          <article class="post">
+                          	<figure class="post-thumb">
+                              <a href="{{ .Permalink }}">
+                                <img src="{{ $image }}" alt="{{ .Title }}">
+                              </a>
+                            </figure>
+                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                            <div class="post-info">{{ .Date.Format "2006-01-02" }}</div>
+                          </article>
+                        {{ end }}
+
+                    </div>
+
+                    <!-- <div class="sidebar-widget archives">
+                        <div class="sidebar-title"><h3>ARCHIEVES</h3></div>
+                        <ul class="list">
+                            <li><a href="#">September 2016</a></li>
+                            <li><a href="#">October 2016</a></li>
+                            <li><a href="#">November 2016</a></li>
+                            <li><a href="#">December 2016</a></li>
+                        </ul>
+                    </div> -->
+
+                </aside>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,29 @@
+{{ $cloudinary_370x210 := "http://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_370,h_210/" }}
+{{ $preview_image := delimit (slice $cloudinary_370x210 .Params.featured_image) "" }}
+
+<div class="news-style-one col-md-4 col-sm-6 col-xs-12">
+  <div class="inner-box">
+    {{ if .Params.featured_image }}
+  	<div class="image-box">
+      <a href="{{ .Permalink }}">
+        <img src="{{ $preview_image }}" alt="">
+      </a>
+    </div>
+    {{ end }}
+
+    <div class="lower-content">
+      <div class="upper-box">
+        {{ range .Params.categories }}
+          <div class="title">{{ .title }}</div>
+        {{ end }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="text">{{ .Description }}</div>
+      </div>
+      <div class="lower-box clearfix">
+        <div class="pull-left">
+          <div class="date"><span class="icon flaticon-business"></span> {{ .Date.Format "2006-01-02" }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
