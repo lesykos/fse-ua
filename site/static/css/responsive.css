@@ -54,6 +54,12 @@
 	}
 }
 
+@media only screen and (min-width: 1170px) {
+	.main-menu .navbar-collapse > .navigation > li.home-page {
+		display: inline-block;;
+	}
+}
+
 @media only screen and (min-width: 1025px){
 	.hidden-bar.right-align.visible-sidebar{
 		right:-400px !important;
@@ -99,7 +105,7 @@
 	}
 
 	.main-header .btn-outer{
-		/*display:none;*/
+		display:none;
 	}
 
 	.main-menu .navigation > li{
@@ -229,6 +235,10 @@
 		float:none !important;
 		padding:0px !important;
 		width:100%;
+	}
+
+	.main-menu .navbar-collapse > .navigation > li.home-page {
+		display: inline-block;;
 	}
 
 	.main-menu .navigation > li > a,
