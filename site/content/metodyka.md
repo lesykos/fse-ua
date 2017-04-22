@@ -2,7 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Методика"
-background-image: "metodyka.jpg"
+background-image: "metodyka-2.jpg"
 ---
 
 Основна мета організації — надання кожній молодій людині засобів для особистого розвитку через п’ять цілей:
