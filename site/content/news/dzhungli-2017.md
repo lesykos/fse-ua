@@ -3,9 +3,7 @@ title: "Джунглі 2017"
 description: "Завершилось зимове таборування вовченят «Джунглі 2017»"
 date: "2017-01-31"
 categories:
-  -
-    title: "Табори"
-    slug: "taboru"
+  - "taboru"
 featured_image: "16463355_1400244950026494_8702721490975653329_o_wovdc9.jpg"
 gallery_images:
   - "16463355_1400244950026494_8702721490975653329_o_wovdc9.jpg"

@@ -3,9 +3,7 @@ title: "Лісовий Пернач"
 description: "Курс для гурткових - Лісовий Пернач"
 date: "2017-02-03"
 categories:
-  -
-    title: "Курси"
-    slug: "kursi"
+  - "kursi"
 featured_image: "16463265_1405745439476445_5788592443400393258_o_tkrejk.jpg"
 gallery_images:
   - "16463265_1405745439476445_5788592443400393258_o_tkrejk.jpg"

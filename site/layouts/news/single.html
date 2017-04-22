@@ -55,9 +55,8 @@
                                 <div class="post-share-options clearfix">
                                     <div class="pull-left tags">
                                       <span>Категорія: </span>
-                                      {{ range .Params.categories }}
-                                        <span>{{ .title }}</span>
-                                          <!-- <a href="/categories/{{ .slug | urlize }}">{{ .title }}</a> -->
+                                      {{ range where .Site.Pages ".Params.cat_slug" "in" .Params.categories }}
+                                        <a href="/categories/{{ .Params.cat_slug }}">{{ .Title }}</a>
                                       {{ end }}
                                     </div>
                                     <!-- <div class="pull-right social-icon-three clearfix">
@@ -109,15 +108,14 @@
 
                     </div>
 
-                    <!-- <div class="sidebar-widget archives">
-                        <div class="sidebar-title"><h3>ARCHIEVES</h3></div>
+                    <div class="sidebar-widget">
+                        <div class="sidebar-title"><h3>Категорії</h3></div>
                         <ul class="list">
-                            <li><a href="#">September 2016</a></li>
-                            <li><a href="#">October 2016</a></li>
-                            <li><a href="#">November 2016</a></li>
-                            <li><a href="#">December 2016</a></li>
+                          {{ range where .Site.Pages "Type" "categories" }}
+                            <li><a href="/categories/{{ .Params.cat_slug }}">{{ .Title }}</a></li>
+                          {{ end }}
                         </ul>
-                    </div> -->
+                    </div>
 
                 </aside>
             </div>

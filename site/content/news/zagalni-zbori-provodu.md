@@ -3,9 +3,7 @@ title: "Загальні збори проводу"
 description: "День коли ми разом."
 date: "2017-02-11"
 categories:
-  -
-    title: "Зустріч"
-    slug: "zustrich"
+  - "zustrich"
 featured_image: "16667952_1853728098202871_1286795414_o_i6remg.jpg"
 gallery_images:
   - "16667952_1853728098202871_1286795414_o_i6remg.jpg"

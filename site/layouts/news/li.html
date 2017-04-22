@@ -11,8 +11,8 @@
 
     <div class="lower-content">
       <div class="upper-box">
-        {{ range .Params.categories }}
-          <div class="title">{{ .title }}</div>
+        {{ range where .Site.Pages ".Params.cat_slug" "in" .Params.categories }}
+          <a href="/categories/{{ .Params.cat_slug }}" class="title">{{ .Title }}</a>
         {{ end }}
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <div class="text">{{ .Description }}</div>

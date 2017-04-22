@@ -3,9 +3,7 @@ title: "Вікендовий вихід куреня"
 description: "Наш курінь в печерах"
 date: "2017-01-25"
 categories:
-  -
-    title: "Поїздки"
-    slug: "pojizdki"
+  - "pojizdki"
 featured_image: "16422459_1399678403416482_353981018569406250_o_oppxfm.jpg"
 gallery_images:
   - "16422459_1399678403416482_353981018569406250_o_oppxfm.jpg"

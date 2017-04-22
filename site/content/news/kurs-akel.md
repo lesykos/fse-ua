@@ -3,9 +3,7 @@ title: "Курс Акел"
 description: "Відбувся курс для провідників жовтої вітки"
 date: "2017-03-19"
 categories:
-  -
-    title: "Зустріч"
-    slug: "zustrich"
+  - "zustrich"
 featured_image: "17359127_1353169618095675_7508786996102526159_o_torny3.jpg"
 gallery_images:
   - "17359127_1353169618095675_7508786996102526159_o_torny3.jpg"

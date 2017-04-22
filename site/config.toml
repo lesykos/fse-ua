@@ -4,3 +4,6 @@ DefaultContentLanguage = "uk"
 MetaDataFormat =  "yaml"
 title = "Федерація скаутів Європи в Україні"
 copyright = "&copy; fse.com.ua - Федерація скаутів Європи в Україні"
+
+[taxonomies]
+category = "categories"
