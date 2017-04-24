@@ -4,10 +4,10 @@ description: "Де Бог захоче, там буде тебе мати!"
 date: "2017-04-23"
 categories:
   - "mandri"
-featured_image: "IMG_4071_u28wxc.jpg"
+featured_image: "IMG_4071_akgnf3.jpg"
 gallery_images:
-  - "IMG_4071_u28wxc.jpg"
-  - "IMG_4280_bfflsb.jpg"
+  - "IMG_4071_akgnf3.jpg"
+  - "IMG_4280_bfflsb2.jpg"
   - "IMG_4432_tc2ovu.jpg"
   - "IMG_4411_v4tmez.jpg"
 ---
