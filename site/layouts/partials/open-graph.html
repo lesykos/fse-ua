@@ -6,7 +6,9 @@
   <meta property="og:image" content="{{ delimit (slice .Site.Params.cloudinaryUploadUrl .Params.featured_image) "" }}"/>
 {{ else }}
   {{ if .Params.background_image }}
-      <meta property="og:image" content="{{ delimit (slice "/images/background/" .Params.background_image) "" | absURL }}"/>
+    <meta property="og:image" content="{{ delimit (slice "/images/background/" .Params.background_image) "" | absURL }}"/>
+  {{ else }}
+    <meta property="og:image" content="http://res.cloudinary.com/dmpdf2tfh/image/upload/v1492788415/kse-logo_pgcja0.jpg"/>
   {{ end }}
 {{ end }}
 
