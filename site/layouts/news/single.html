@@ -59,11 +59,11 @@
                                         <a href="/categories/{{ .Params.cat_slug }}">{{ .Title }}</a>
                                       {{ end }}
                                     </div>
-                                    <!-- <div class="pull-right social-icon-three clearfix">
+                                    <div class="pull-right social-icon-three clearfix">
                                     	Поділитися:
-                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ delimit (slice .Site.BaseURL .Permalink) "" }}" class="facebook"><span class="fa fa-facebook-f"></span></a>
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="facebook"><span class="fa fa-facebook-f"></span></a>
                                         <a href="https://twitter.com/share?text={{ .Title }}&url={{ .Permalink }}" class="twitter"><span class="fa fa-twitter"></span></a>
-                                    </div> -->
+                                    </div>
                                 </div>
 
                             </div>
