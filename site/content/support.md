@@ -2,7 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Підтримка"
-background-image: "support.jpg"
+background_image: "support.jpg"
 ---
 
 Дорогі наші друзі, саме ви можете допомогти нам у творенні пригоди для дітей та молоді.

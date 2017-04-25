@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{ $image := index .Params "background-image" | default "7.jpg" }}
+{{ $image := index .Params "background_image" | default "7.jpg" }}
 
 <section class="section-cover" style="background-image:url(/images/background/{{ $image }});"></section>
 
