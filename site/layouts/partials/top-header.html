@@ -6,9 +6,14 @@
               <!--Top Left-->
               <div class="top-left">
                 <ul class="clearfix">
-                    <li><span class="icon flaticon-technology-1"></span>+38 097 306 5030</li>
-                    <li><span class="icon flaticon-interface"></span>fse.ukraine@gmail.com</li>
-                  </ul>
+                  {{ if .Site.Params.phone }}
+                    <li><span class="icon flaticon-technology-1"></span>{{ .Site.Params.phone }}</li>
+                  {{ end }}
+
+                  {{ if .Site.Params.email }}
+                    <li><span class="icon flaticon-interface"></span>{{ .Site.Params.email }}</li>
+                  {{ end }}
+                </ul>
               </div>
 
               <!--Top Right-->
@@ -16,15 +21,17 @@
 
                 <!--social-icon-->
                   <div class="social-icon">
-                      <a href="https://www.facebook.com/FSEinUA" target="_blank">
+                    {{ if .Site.Params.facebook }}
+                      <a href="{{ .Site.Params.facebook }}" target="_blank">
                         <span class="fa fa-facebook"></span>
                       </a>
-                      <!-- <a href="https://vk.com/" target="_blank">
-                        <span class="fa fa-vk"></span>
-                      </a> -->
-                      <a href="https://www.youtube.com/channel/UCUZj-HaUUatVLVJKWMKBAbw/videos" target="_blank">
+                    {{end}}
+
+                    {{ if .Site.Params.youtube }}
+                      <a href="{{ .Site.Params.youtube }}" target="_blank">
                         <span class="fa fa-youtube-play"></span>
                       </a>
+                    {{end}}
                   </div>
 
               </div>

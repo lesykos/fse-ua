@@ -1,9 +1,31 @@
-baseURL = "/"
-languageCode = "uk"
-DefaultContentLanguage = "uk"
-MetaDataFormat =  "yaml"
+# https://gohugo.io/overview/configuration/
+
+# hostname (and path) to the root, e.g. http://spf13.com/
+baseURL = "https://fse.com.ua/"
+# Missing translations will default to this content language
+defaultContentLanguage = "uk"
 title = "Федерація скаутів Європи в Україні"
 copyright = "&copy; fse.com.ua - Федерація скаутів Європи в Україні"
+# Build robots.txt file
+enableRobotsTXT = true
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject = true
+# google analytics tracking id
+googleAnalytics = "UA-98012716-1"
+languageCode = "uk-UA"
+metaDataFormat =  "yaml"
+paginate = 9
+paginatePath = "page"
+
+[permalinks]
+  news = "/:year/:month/:slug/"
 
 [taxonomies]
-category = "categories"
+  category = "categories"
+
+[params]
+  description = "Міжнародна спільнота скаутів і скауток Європи"
+  phone = "+38 097 306 5030"
+  email = "fse.ukraine@gmail.com"
+  facebook = "https://www.facebook.com/FSEinUA/"
+  youtube = "https://www.youtube.com/channel/UCUZj-HaUUatVLVJKWMKBAbw/videos"
