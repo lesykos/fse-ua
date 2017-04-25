@@ -97,11 +97,11 @@
                           <article class="post">
                             {{ $image := delimit (slice $cloudinary_80x80 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
                           	<figure class="post-thumb">
-                              <a href="{{ .Permalink }}">
+                              <a href="{{ .RelPermalink }}">
                                 <img src="{{ $image }}" alt="{{ .Title }}">
                               </a>
                             </figure>
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                             <div class="post-info">{{ .Date.Format "2006-01-02" }}</div>
                           </article>
                         {{ end }}
