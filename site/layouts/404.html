@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{ $image := index .Params "background-image" | default "o-jakub.jpg" }}
+
+<section class="section-cover" style="background-image:url(/images/background/{{ $image }});"></section>
+
+<section class="section-title auto-container">
+	<h1 class="section-title__h">404 - Не Знайдено</h1>
+</section>
+
+{{ partial "footer.html" . }}
