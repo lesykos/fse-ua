@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Символіка та однострій"
+description: "Символіка та однострій"
 background_image: "symbols.jpg"
 ---
 

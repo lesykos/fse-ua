@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Провід"
+description: "Провід організації"
 background_image: "provid.jpg"
 ---
 

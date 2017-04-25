@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Підтримка"
+description: "Дорогі наші друзі, саме ви можете допомогти нам у творенні пригоди для дітей та молоді."
 background_image: "support.jpg"
 ---
 

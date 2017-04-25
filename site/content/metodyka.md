@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Методика"
+description: "Основна мета організації — надання кожній молодій людині засобів для особистого розвитку"
 background_image: "metodyka-2.jpg"
 ---
 

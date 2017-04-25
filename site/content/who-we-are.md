@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "Хто ми"
+description: "Міжнародна спільнота скаутів і скауток Європи – Федерація скаутів Європи"
 background_image: "who-we-are-2.jpg"
 ---
 

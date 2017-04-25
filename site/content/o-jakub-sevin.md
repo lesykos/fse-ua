@@ -2,6 +2,7 @@
 type: "page"
 layout: "info-page"
 title: "О. Якуб Севін"
+description: "Головним основоположником нашої спільноти справедливо вважати блж.о. Якуба Севіна."
 background_image: "o-jakub.jpg"
 ---
 
