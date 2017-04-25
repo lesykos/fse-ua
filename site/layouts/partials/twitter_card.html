@@ -1,0 +1,13 @@
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="{{ default .Site.Title .Title }}"/>
+<meta name="twitter:description" content="{{ default .Site.Params.description .Description }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+{{ if .Params.featured_image }}
+  <meta name="twitter:image" content="{{ delimit (slice .Site.Params.cloudinaryUploadUrl .Params.featured_image) "" }}"/>
+{{ else }}
+  {{ if .Params.background_image }}
+    <meta name="twitter:image" content="{{ delimit (slice "/images/background/" .Params.background_image) "" | absURL }}"/>
+  {{ else }}
+    <meta name="twitter:image" content="http://res.cloudinary.com/dmpdf2tfh/image/upload/v1492788415/kse-logo_pgcja0.jpg"/>
+  {{ end }}
+{{ end }}

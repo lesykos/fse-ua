@@ -6,6 +6,7 @@
 
     <title>{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
 
+    {{ partial "twitter_card.html" . }}
     {{ partial "open-graph.html" . }}
 
     <!-- Stylesheets -->
