@@ -1,0 +1,18 @@
+<meta property="og:title" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
+<meta property="og:description" content="{{ default .Site.Params.description .Description }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ if .Params.featured_image }}
+  <meta property="og:image" content="{{ delimit (slice .Site.Params.cloudinaryUploadUrl .Params.featured_image) "" }}"/>
+{{ else }}
+  {{ if .Params.background_image }}
+      <meta property="og:image" content="{{ delimit (slice "/images/background/" .Params.background_image) "" | absURL }}"/>
+  {{ end }}
+{{ end }}
+
+{{ if eq .Section "news" }}
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" | safeHTML }}" />
+{{ else }}
+  <meta property="og:type" content="website" />
+{{ end }}

@@ -4,9 +4,9 @@
 
     {{ partial "meta.html" . }}
 
-    <title>
-      {{ index .Params "title" | default .Site.Title }}
-    </title>
+    <title>{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+
+    {{ partial "open-graph.html" . }}
 
     <!-- Stylesheets -->
     <link href="/css/bootstrap.css" rel="stylesheet">
@@ -17,6 +17,8 @@
 
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <link rel="canonical" href="{{ .Permalink }}" />
 
     <!-- Responsive -->
     <link href="/css/responsive.css" rel="stylesheet">
