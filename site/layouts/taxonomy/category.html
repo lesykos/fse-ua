@@ -7,10 +7,10 @@
 </section>
 
 <section class="news-section blog-grid">
+	{{ $paginator := .Paginator }}
+
   <div class="auto-container">
     <ul class="row clearfix">
-      {{ $paginator := .Paginator }}
-
 			{{ range $index, $page := .Paginator.Pages }}
 			  {{ .Render "li" }}
 			{{ end }}

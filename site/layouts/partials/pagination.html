@@ -3,8 +3,8 @@
 		{{if .paginator.HasPrev}}
 			{{ $prevUrl := delimit (slice .site.BaseURL .paginator.Prev.URL) "" }}
 		  <li>
-				<a class="pagination-item pagination-next" href="{{ $prevUrl }}">
-					<i class="icon-arrow-left"></i> <span>Нові</span>
+				<a class="pagination-item pagination-next" href="{{ .paginator.Prev.URL }}">
+					<i class="icon-arrow-left"></i> <span>Нові новини</span>
 				</a>
 			</li>
 		{{end}}
@@ -12,8 +12,8 @@
 		{{if .paginator.HasNext}}
 			{{ $nextUrl := delimit (slice .site.BaseURL .paginator.Next.URL) "" }}
 		  <li>
-				<a class="pagination-item pagination-prev" href="{{ $nextUrl }}">
-					<span>Старі</span> <i class="icon-arrow-right"></i>
+				<a class="pagination-item pagination-prev" href="{{ .paginator.Next.URL }}">
+					<span>Старі новини</span> <i class="icon-arrow-right"></i>
 				</a>
 			</li>
 		{{end}}
