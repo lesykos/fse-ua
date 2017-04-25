@@ -1,5 +1,6 @@
 ---
 title: "Загальні збори проводу"
+slug: "zagalni-zbori-provodu"
 description: "День коли ми разом."
 date: "2017-02-11"
 categories:

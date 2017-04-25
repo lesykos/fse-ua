@@ -1,5 +1,6 @@
 ---
 title: "Мандрівка вогнища св. Маргарети Алякок"
+slug: "mandrivka-vognishcha-sv-margareti-aljakok"
 description: "Мандрівнички вогнища святої Маргарети Алякок 1 квітня вирушили у незабутню мандрівку"
 date: "2017-04-03"
 categories:

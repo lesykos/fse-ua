@@ -1,5 +1,6 @@
 ---
 title: "Лісовий Пернач"
+slug: "lisovij-pernach"
 description: "Курс для гурткових - Лісовий Пернач"
 date: "2017-02-03"
 categories:

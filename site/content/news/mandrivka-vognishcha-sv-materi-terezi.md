@@ -1,5 +1,6 @@
 ---
 title: "Мандрівка вогнища св.Матері Терези"
+slug: "mandrivka-vognishcha-sv-materi-terezi"
 description: "Мандрівнички вогнища святої матері Терези вирушили у мандри"
 date: "2017-02-06"
 categories:

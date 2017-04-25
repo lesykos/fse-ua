@@ -1,5 +1,6 @@
 ---
 title: "Приізд Федерального комісара"
+slug: "priizd-federalnogo-komisara"
 description: "Відбулося іменування Крайової КСЄ — Галини Білан"
 date: "2016-12-07"
 categories:

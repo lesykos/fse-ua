@@ -1,5 +1,6 @@
 ---
 title: "Мандрівка провідників"
+slug: "mandrivka-providnikiv"
 description: "н. Синєвидно-Гошів, 33 км, добре Братство!"
 date: "2017-04-04"
 categories:

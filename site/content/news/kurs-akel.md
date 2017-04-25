@@ -1,5 +1,6 @@
 ---
 title: "Курс Акел"
+slug: "kurs-akel"
 description: "Відбувся курс для провідників жовтої вітки"
 date: "2017-03-19"
 categories:

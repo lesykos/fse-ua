@@ -1,5 +1,6 @@
 ---
 title: "Мандрівка вогнища св. Матері Терези"
+slug: "mandrivka-vognishcha-sv-materi-terezi"
 description: "Де Бог захоче, там буде тебе мати!"
 date: "2017-04-23"
 categories:

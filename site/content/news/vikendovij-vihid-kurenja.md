@@ -1,5 +1,6 @@
 ---
 title: "Вікендовий вихід куреня"
+slug: "vikendovij-vihid-kurenja"
 description: "Наш курінь в печерах"
 date: "2017-01-25"
 categories:
