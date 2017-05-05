@@ -1,5 +1,5 @@
 ---
-title: "Вовчий шляш 2017"
+title: "Вовчий шлях 2017"
 slug: "vovchij-shljash-2017"
 description: "Таборування вовченят"
 date: "2017-04-30"
