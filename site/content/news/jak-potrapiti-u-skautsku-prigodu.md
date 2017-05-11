@@ -9,12 +9,12 @@ featured_image: "Головна2_edvkmg.jpg"
 gallery_images:
   - "Головна2_edvkmg.jpg"
   - "IMG_4937-222_ejtutb.jpg"
+  - "IMG_5194-2222_a3muou.jpg"
   - "IMG_5032-2222_iemqiw.jpg"
   - "SUTMw46tbVE-2_i7kmoo.jpg"
   - "rWDsDAN9ylc-2_sdkbdv.jpg"
   - "lPLtHO09LEI-3_x13ajb.jpg"
   - "Jn39bA9pgME_cn6wa1.jpg"
-  - "IMG_20170507_120834-2_xhzsvx.jpg"
   - "C-5MzBeGSfQ-2_fvixgx.jpg"
 ---
 
