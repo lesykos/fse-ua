@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: Lesuk/fse-ua
+  branch: master
+
+media_folder: "site/static/images/uploads" # Folder where user uploaded files should go
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Новини" # Used in the UI, ie.: "New Post"
+    folder: "site/content/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Транслітерація заголовку (slugify.net)", name: "slug", widget: "string"}
+      - {label: "Короткий опис", name: "description", widget: "text"}
+      - {label: "Дата", name: "date", widget: "datetime"}
+      - {label: "Категорія", name: "categories", widget: "list"}
+      - {label: "Головне зображення", name: "featured_image", widget: "string", required: false}
+      - {label: "Галерея", name: "gallery_images", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
