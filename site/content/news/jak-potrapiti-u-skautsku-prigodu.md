@@ -5,17 +5,17 @@ description: "Поради від скаутів, які щойно поверн
 date: "2017-05-10"
 categories:
   - "taboru"
-featured_image: "Головна2_edvkmg.jpg"
+featured_image: Головна2_edvkmg
 gallery_images:
-  - "Головна2_edvkmg.jpg"
-  - "IMG_4937-222_ejtutb.jpg"
-  - "IMG_5194-2222_a3muou.jpg"
-  - "IMG_5032-2222_iemqiw.jpg"
-  - "SUTMw46tbVE-2_i7kmoo.jpg"
-  - "rWDsDAN9ylc-2_sdkbdv.jpg"
-  - "lPLtHO09LEI-3_x13ajb.jpg"
-  - "Jn39bA9pgME_cn6wa1.jpg"
-  - "C-5MzBeGSfQ-2_fvixgx.jpg"
+  - Головна2_edvkmg
+  - IMG_4937-222_ejtutb
+  - IMG_5194-2222_a3muou
+  - IMG_5032-2222_iemqiw
+  - SUTMw46tbVE-2_i7kmoo
+  - rWDsDAN9ylc-2_sdkbdv
+  - lPLtHO09LEI-3_x13ajb
+  - Jn39bA9pgME_cn6wa1
+  - C-5MzBeGSfQ-2_fvixgx
 ---
 
 Якщо ви набираєте це питання в Google - стривайте! Ми зараз все розкажемо.

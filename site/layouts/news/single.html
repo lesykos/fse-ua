@@ -4,7 +4,7 @@
 {{ $cloudinary_870 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_870,h_490/" }}
 {{ $cloudinary_80x80 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_80,h_80/" }}
 {{ $cloudinary_300x170 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_300,h_170/" }}
-{{ $main_image := delimit (slice $cloudinary_870 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
+{{ $main_image := delimit (slice $cloudinary_870 (default "kse-logo_pgcja0" .Params.featured_image) ".jpg") "" }}
 
 <div class="sidebar-page-container blog-detail">
     <div class="auto-container">
@@ -40,8 +40,8 @@
                                       {{ range $index, $image := .Params.gallery_images }}
                                         <div class="services-block col-md-4 col-sm-6 col-xs-6">
                                           <figure>
-                                            {{ $full_url := delimit (slice $cloudinary_url $image) "" }}
-                                            {{ $preview_url := delimit (slice $cloudinary_300x170 $image) "" }}
+                                            {{ $full_url := delimit (slice $cloudinary_url $image ".jpg") "" }}
+                                            {{ $preview_url := delimit (slice $cloudinary_300x170 $image ".jpg") "" }}
                 														<a href="{{ $full_url }}" class="lightbox-image" title="" data-fancybox-group="post-gallery">
                 															<img src="{{ $preview_url }}" alt="">
                 														</a>
@@ -95,7 +95,7 @@
 
                         {{ range first 7 (where .Site.Pages "Section" "news") }}
                           <article class="post">
-                            {{ $image := delimit (slice $cloudinary_80x80 (default "kse-logo_pgcja0" .Params.featured_image)) "" }}
+                            {{ $image := delimit (slice $cloudinary_80x80 (default "kse-logo_pgcja0" .Params.featured_image)  ".jpg") "" }}
                           	<figure class="post-thumb">
                               <a href="{{ .RelPermalink }}">
                                 <img src="{{ $image }}" alt="{{ .Title }}">
