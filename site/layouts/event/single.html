@@ -7,6 +7,17 @@
     	<div class="auto-container">
         	<!--Event Info-->
             <div class="event-single-info">
+              <div class="event-title">
+                <div class="inner">
+                    <h4>{{ .Title}}</h4>
+                      <!--Post Meta-->
+                      <ul class="post-meta">
+                          <li><span class="icon flaticon-calendar"></span>{{ .Date.Format "2006-01-02" }}</li>
+                          <li><span class="icon flaticon-pin"></span>{{ .Params.location }}</li>
+                      </ul>
+                  </div>
+              </div>
+
             	<div class="row clearfix">
                 	<div class="column col-md-8 col-sm-12 col-xs-12">
                     	<div class="image-box">
@@ -14,7 +25,7 @@
                         </div>
                     </div>
                     <div class="column col-md-4 col-sm-12 col-xs-12">
-                    	<h3>ОРГАНІЗАТОР ПОДІЇ</h3>
+                    	<h3>Контакти</h3>
                     	<ul class="event-organizer">
                         {{ with .Params.organizer_name }}
                           <li>Організатор <span>{{ . }}</span></li>
@@ -29,17 +40,6 @@
                           <li><span><a href="{{ . }}" target="_blank">Подія на Facebook</a></span></li>
                         {{ end }}
                       </ul>
-                    </div>
-                </div>
-                <!--Event Title-->
-                <div class="event-title">
-                	<div class="inner">
-                    	<h4>{{ .Title}}</h4>
-                        <!--Post Meta-->
-                        <ul class="post-meta">
-                            <li><span class="icon flaticon-calendar"></span>{{ .Date.Format "2006-01-02" }}</li>
-                            <li><span class="icon flaticon-pin"></span>{{ .Params.location }}</li>
-                        </ul>
                     </div>
                 </div>
             </div>

@@ -3508,12 +3508,12 @@ img{
 .event-single-section .event-single-info{
 	position:relative;
 	margin-bottom: 50px;
-	padding:40px 40px;
+	padding:30px 40px;
 	background-color:#f7f7f7;
 }
 
 .event-single-info .column{
-	padding-bottom:30px;
+	/*padding-bottom:30px;*/
 }
 
 .event-single-info .image-box{
@@ -3575,7 +3575,7 @@ img{
 
 .event-single-info .event-title{
 	position:relative;
-	padding-top:10px;
+	/*padding-top:10px;*/
 }
 
 /*.event-single-info .event-title .inner{
