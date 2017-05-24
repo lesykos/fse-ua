@@ -25,6 +25,9 @@
                         {{ with .Params.organizer_email }}
                           <li>Email <span>{{ . }}</span></li>
                         {{ end }}
+                        {{ with .Params.facebook_link }}
+                          <li><span><a href="{{ . }}" target="_blank">Подія на Facebook</a></span></li>
+                        {{ end }}
                       </ul>
                     </div>
                 </div>
