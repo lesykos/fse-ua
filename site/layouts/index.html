@@ -52,4 +52,19 @@
     </div>
 </section>
 
+
+<section class="news-section padding">
+		<div class="auto-container">
+    		<div class="sec-title">
+            <h2>Останні Новини</h2>
+        </div>
+
+        <div class="row clearfix">
+						{{ range first 3 (where .Site.Pages "Section" "news") }}
+							{{ .Render "li" }}
+						{{ end }}
+        </div>
+    </div>
+</section>
+
 {{ partial "footer.html" . }}
