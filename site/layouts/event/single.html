@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ $cloudinary_760x428 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_750,h_428/" }}
-{{ $main_image := delimit (slice $cloudinary_760x428 (default "kse-logo_pgcja0" .Params.image) ".jpg") "" }}
+{{ $main_image := delimit (slice $cloudinary_760x428 (default "kse-logo_pgcja0" .Params.featured_image) ".jpg") "" }}
 
 <div class="event-single-section">
     	<div class="auto-container">

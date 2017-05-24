@@ -5,7 +5,7 @@ location: "Крехів, Львівська область"
 date: "2017-05-20"
 end_date: "2017-05-21"
 time: "12:00"
-image: IMG_5760-2_docsfh
+featured_image: IMG_5760-2_docsfh
 organizer_name: "Католицьке скаутство Європи"
 organizer_phone: "093 84 37 492"
 organizer_email: "smart.del@yahoo.com"
