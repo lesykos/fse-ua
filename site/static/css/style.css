@@ -3502,11 +3502,12 @@ img{
 
 .event-single-section{
 	position:relative;
-	padding:150px 0px 100px;
+	padding:100px 0px;
 }
 
 .event-single-section .event-single-info{
 	position:relative;
+	margin-bottom: 50px;
 	padding:40px 40px;
 	background-color:#f7f7f7;
 }
@@ -3577,10 +3578,10 @@ img{
 	padding-top:10px;
 }
 
-.event-single-info .event-title .inner{
+/*.event-single-info .event-title .inner{
 	position:relative;
 	padding-left:110px;
-}
+}*/
 
 .event-single-info .event-title .inner h4{
 	font-size:18px;

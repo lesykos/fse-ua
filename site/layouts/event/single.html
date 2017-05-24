@@ -1,0 +1,79 @@
+{{ partial "header.html" . }}
+
+{{ $cloudinary_760x428 := "https://res.cloudinary.com/dmpdf2tfh/image/upload/c_fill,g_center,w_750,h_428/" }}
+{{ $main_image := delimit (slice $cloudinary_760x428 (default "kse-logo_pgcja0" .Params.image) ".jpg") "" }}
+
+<div class="event-single-section">
+    	<div class="auto-container">
+        	<!--Event Info-->
+            <div class="event-single-info">
+            	<div class="row clearfix">
+                	<div class="column col-md-8 col-sm-12 col-xs-12">
+                    	<div class="image-box">
+                            <img src="{{ $main_image }}" alt="{{ .Title }}">
+                        </div>
+                    </div>
+                    <div class="column col-md-4 col-sm-12 col-xs-12">
+                    	<h3>ОРГАНІЗАТОР ПОДІЇ</h3>
+                    	<ul class="event-organizer">
+                        {{ with .Params.organizer_name }}
+                          <li>Організатор <span>{{ . }}</span></li>
+                        {{ end }}
+                        {{ with .Params.organizer_phone }}
+                          <li>Телефон <span>{{ . }}</span></li>
+                        {{ end }}
+                        {{ with .Params.organizer_email }}
+                          <li>Email <span>{{ . }}</span></li>
+                        {{ end }}
+                      </ul>
+                    </div>
+                </div>
+                <!--Event Title-->
+                <div class="event-title">
+                	<div class="inner">
+                    	<h4>{{ .Title}}</h4>
+                        <!--Post Meta-->
+                        <ul class="post-meta">
+                            <li><span class="icon flaticon-calendar"></span>{{ .Date.Format "2006-01-02" }}</li>
+                            <li><span class="icon flaticon-pin"></span>{{ .Params.location }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Event Details-->
+            <div class="event-details">
+            	<div class="row clearfix">
+
+                	<!--Column-->
+                	<div class="column col-md-6 col-sm-6 col-xs-12">
+                    	<h3>Деталі події</h3>
+                        <div class="text">
+                          {{ .Content }}
+                        </div>
+                        <ul class="event-info">
+                          {{ with .Params.location }}
+                            <li>Розташування <span>{{ . }}</span></li>
+                          {{ end }}
+                          <li>Дата <span>{{ dateFormat "02-01" .Date }} - {{ dateFormat "02-01" .Params.end_date }}</span></li>
+                          {{ with .Params.time }}
+                            <li>Час <span>{{ . }}</span></li>
+                          {{ end }}
+                        </ul>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                        <!--Map Canvas-->
+                        {{ with .Params.map_iframe_tag }}
+                          {{ safeHTML (replace (replace . "width=\"600\"" "width='100%'") "height=\"450\"" "height='320px'") }}
+                        {{ end }}
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+{{ partial "footer.html" . }}

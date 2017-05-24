@@ -19,6 +19,7 @@ paginatePath = "page"
 
 [permalinks]
   news = "/:year/:month/:slug/"
+  event = "/event/:year/:month/:slug/"
 
 [taxonomies]
   category = "categories"
