@@ -1,5 +1,5 @@
 ---
-title: Літня мандрівка 2017
+title: litnja-mandrivka-2017
 slug: litnja-mandrivka-2017
 description: Реєстаційна форма
 date: 2017-05-28T20:51:24.361Z
