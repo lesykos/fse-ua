@@ -1,5 +1,5 @@
 ---
-title: Курси для провідників
+title: kursi-dlja-providnikiv
 slug: kursi-dlja-providnikiv
 description: Вивчай нове!
 date: 2017-06-02T07:45:48.490Z
