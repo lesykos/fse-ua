@@ -1,7 +1,7 @@
 ---
-title: pro-nash-kurs-ekspresii
+title: Про наш курс експресії
 slug: pro-nash-kurs-ekspresii
-description: Ділимось враженням про вікенд з Бруно
+description: Ділимось враженням від вікенду з Бруно
 date: 2017-09-19T13:58:45.609Z
 categories:
   - kursi
@@ -24,4 +24,5 @@ gallery_images:
 Завжи будь собою! Ти живеш експресію весь час! Життя -це гра,так грай її!
 
 Ліля Гонтар, Золочів
+
 
