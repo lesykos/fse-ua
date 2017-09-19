@@ -1,7 +1,7 @@
 ---
 title: Про наш курс експресії
 slug: pro-nash-kurs-ekspresii
-description: Ділимось враженням від вікенду з Бруно
+description: Ділимось враженнями від вікенду з Бруно
 date: 2017-09-19T13:58:45.609Z
 categories:
   - kursi
