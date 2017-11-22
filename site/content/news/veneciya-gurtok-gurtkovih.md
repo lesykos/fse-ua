@@ -10,7 +10,6 @@ gallery_images:
   - IMG_0082_npnad1
   - IMG_0153_fqbtpb
   - IMG_0248_kbu89c
-  - IMG_0153_fqbtpb
   - IMG-2017
   - 1119-WA0034_o
   - IMG_0150_uxzi20
@@ -28,4 +27,5 @@ gallery_images:
 Нехай пригоди тривають вічно!..
 
 SEMPER PARATI
+
 
