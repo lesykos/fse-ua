@@ -1,5 +1,5 @@
 ---
-title: veneciya-gurtok-gurtkovih
+title: Гурток гурткових у Венеції!
 slug: veneciya-gurtok-gurtkovih
 description: '«Ви тут, бо Господь захотів вас тут мати» (Мартін Гафнер)'
 date: 2017-11-22T12:44:31.545Z
@@ -28,3 +28,4 @@ gallery_images:
 Нехай пригоди тривають вічно!..
 
 SEMPER PARATI
+
