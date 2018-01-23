@@ -10,16 +10,12 @@ gallery_images:
   - IMG_0082_npnad1
   - IMG_0153_fqbtpb
   - IMG_0248_kbu89c
-  - IMG-2017
-  - 1119-WA0034_o
   - IMG_0150_uxzi20
   - IMG_0248_kbu89c
-  - IMG_0232_ynjpckIMG_0162_l1fvjz
   - DSC05352_ar5fn0
   - IMG_0119_l0oacm
   - IMG_0381_lmkezk
   - IMG_0341_f2gf8w
-  - IMG-20171118-WA0008_a
 ---
 «Ви тут,бо Господь захотів вас тут мати» (Мартін Гафнер)
 
