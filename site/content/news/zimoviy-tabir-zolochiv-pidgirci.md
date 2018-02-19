@@ -1,5 +1,5 @@
 ---
-title: zimoviy-tabir-zolochiv-pidgirci
+title: Зимовий табір (Золочів-Підгірці)
 slug: zimoviy-tabir-zolochiv-pidgirci
 description: >-
   Зимова пригода - це щось неймовірне. Це щось, що залишається в спогадах як
