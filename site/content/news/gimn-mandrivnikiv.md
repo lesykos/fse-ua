@@ -1,5 +1,5 @@
 ---
-title: gimn-mandrivnikiv
+title: Гімн мандрівників
 slug: gimn-mandrivnikiv
 description: Автор - Павло Підлиський
 date: 2018-03-02T06:05:39.822Z
