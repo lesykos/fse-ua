@@ -1,5 +1,5 @@
 ---
-title: oficiyniy-sayt-ievromutu-2019-vzhe-vidkritiy
+title: Офіційний сайт Євромуту 2019 вже відкритий!
 slug: oficiyniy-sayt-ievromutu-2019-vzhe-vidkritiy
 description: 'http://euromoot.org/'
 date: 2018-03-18T07:57:17.674Z
