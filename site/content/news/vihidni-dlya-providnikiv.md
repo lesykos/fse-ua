@@ -1,5 +1,5 @@
 ---
-title: vihidni-dlya-providnikiv
+title: Вихідні для провідників
 slug: vihidni-dlya-providnikiv
 description: 'Мандрівники здійснили паломництво до чудотворної ікони Спаса у Глинянах. '
 date: 2018-04-26T19:14:11.051Z
