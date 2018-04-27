@@ -26,10 +26,6 @@ france:
   name: "France"
   iso: "fr"
   url: "http://www.scouts-europe.org/"
-hungary:
-  name: "Hungary"
-  iso: "hu"
-  url: "http://www.fse.hu/"
 italy:
   name: "Italy"
   iso: "it"
@@ -50,18 +46,6 @@ slovakia:
   name: "Slovakia"
   iso: "sk"
   url: "http://www.fse.sk/"
-czech:
-  name: "Czech Republic"
-  iso: "cz"
-  url: "http://www.skauti-evropy.cz/"
-romania:
-  name: "Romania"
-  iso: "ro"
-  url: "http://www.fse.ro/"
-russia:
-  name: "Russia"
-  iso: "ru"
-  url: "http://www.orur-spb.ru/"
 switzerland:
   name: "Switzerland"
   iso: "ch"
