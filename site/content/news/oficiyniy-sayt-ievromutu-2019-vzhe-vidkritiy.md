@@ -7,6 +7,8 @@ categories:
   - mandri
 featured_image: euromot_qsabnp
 ---
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/4g76yBJuCBw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Офіційний сайт Євромуту 2019 вже відкритий! Також кожен мандрівник і мандрівничка може взяти участь у конкурсі логотипу Євромуту.
 
 http://euromoot.org/
