@@ -10,7 +10,7 @@ background_image: "provid.jpg"
 
 Крайовий вітки хлопців: **Дубиняк Ігор**, dubunyakigor@gmail.com
 
-Крайова вітки дівчат: **Білан Галина**, galya96@bigmir.net
+Крайова вітки дівчат: **Білан Галина**, halyabilan@gmail.com
 
 Національний секретар: **Яцунська Ольга**, olapunduk@email.ua
 
