@@ -1,5 +1,5 @@
 ---
-title: perezavantazhennya-20
+title: Перезавантаження_20
 slug: perezavantazhennya-20
 description: Днями завершилось шалене таборування скауток.
 date: 2018-08-06T07:17:00.350Z
