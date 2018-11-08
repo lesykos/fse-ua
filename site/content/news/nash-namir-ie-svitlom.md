@@ -2,12 +2,11 @@
 title: nash-namir-ie-svitlom
 slug: nash-namir-ie-svitlom
 description: Під таким гаслом цими вихідними проходила традиційна пілігримка у Гошів
-date: 2018-09-13T08:06:23+03:00
+date: 2018-09-13T05:06:23.000Z
 categories:
   - mandri
-featured_image: DSC_0417_knujxs
+featured_image: DSC_0488_lebebo
 gallery_images:
-  - DSC_0488_lebebo
   - DSC_0527_jjfgsu
   - DSC_0495_hctqmv
   - DSC_0498_hlfpzb
@@ -15,6 +14,7 @@ gallery_images:
   - DSC_0418_vtb5zx
   - DSC_0459_w2ewfe
   - DSC_0564_tqjfcj
+  - DSC_0417_knujxs
 ---
 «Наш намір є Світлом!» - під таким гаслом цими вихідними проходила традиційна пілігримка мандрівничок КСЄ. Особливим часом вона стала для нашої сестри-мандрівнички Юлії Шамро, яка склала Скаутську Присягу, стаючи повноцінним членом нашої організації, з чим ми від всього серця її щиро вітаємо.
 
