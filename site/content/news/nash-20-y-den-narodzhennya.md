@@ -1,8 +1,8 @@
 ---
-title: nash-20-y-den-narodzhennya
+title: Наш 20-й День народження
 slug: nash-20-y-den-narodzhennya
 description: Враженнями від святкування діляться наші мандрівники
-date: 2018-11-05T00:00:00+02:00
+date: 2018-11-04T22:00:00.000Z
 categories:
   - zustrich
 featured_image: IMG_9413_cmrvg0
