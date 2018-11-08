@@ -1,5 +1,5 @@
 ---
-title: nash-namir-ie-svitlom
+title: Наш намір є світлом
 slug: nash-namir-ie-svitlom
 description: Під таким гаслом цими вихідними проходила традиційна пілігримка у Гошів
 date: 2018-09-13T05:06:23.000Z
