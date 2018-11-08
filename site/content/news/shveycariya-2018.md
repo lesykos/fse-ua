@@ -4,10 +4,10 @@ slug: shveycariya-2018
 description: >-
   У мальовничих швейцарських Альпах мандрували і вчилися провіднички з 7 різних
   країн
-date: 2018-08-26T08:01:29+03:00
+date: 2018-08-26T05:01:29.000Z
 categories:
   - mandri
-featured_image: IMG_4969_unavlx
+featured_image: IMG_4975_zixjoo
 gallery_images:
   - IMG_4990_z4xaq3
   - IMG_4946_lsgqkl
@@ -19,6 +19,7 @@ gallery_images:
   - IMG_4908_f88ir8
   - IMG_4965_ishvux
   - IMG_5041_xgmcsl
+  - IMG_4969_unavlx
 ---
 «Там, де ступає нога скаута чи скаутки, неодмінно має відбутися зміна на краще.» (с)
 
