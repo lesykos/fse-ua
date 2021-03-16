@@ -15,3 +15,4 @@ background_image: "provid.jpg"
 Національний секретар: **Яцунська Ольга**, olapunduk@email.ua
 
 Національний скарбник: **Олійник Володимир**, ekvilibriumstar@gmail.com
+
