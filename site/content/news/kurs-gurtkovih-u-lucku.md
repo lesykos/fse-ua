@@ -1,8 +1,8 @@
 ---
-title: kurs-gurtkovih-u-lucku
+title: Курс гурткових в Луцьку
 slug: kurs-gurtkovih-u-lucku
 description: 'У курсах взяли участь скаутки зі Львова, Золочева та Городка'
-date: 2018-10-23T08:17:14+03:00
+date: 2018-10-23T05:17:14.000Z
 categories:
   - kursi
 featured_image: IMG_5893_hcuyee
